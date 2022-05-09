@@ -1,5 +1,6 @@
 const anigame = ["571027211407196161"];//Anigame ID
 const config = require('./config/anigame.js')
+const {WebhookClient} = require('discord.js-selfbot-v13')
 
 async function anigame(message) {
   if(anigame.includes(message.author.id)) {
