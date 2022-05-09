@@ -24,3 +24,5 @@ async function anigame(message) {
   }
   }
 }
+
+module.exports = anigame
